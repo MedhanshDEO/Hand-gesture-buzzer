@@ -4,7 +4,7 @@ import numpy as np
 import time
 
 # ---------- SETTINGS ----------
-USE_ARDUINO = True      # set to True when the Arduino is connected
+USE_ARDUINO = False      # set to True when the Arduino is connected
 PORT = 'COM5'            # change to your Arduino's port
 # ------------------------------
 
