@@ -21,7 +21,7 @@ Webcam -> Python + MediaPipe -> USB serial -> Arduino -> Buzzer + RGB LED
 ## Setup
 1. Install Python 3.11
 2. `pip install -r requirements.txt`
-3. Upload the sketch in `hand_gesture_notes` to the Arduino
+3. Open `hand_gesture_buzzer_keyboard.ino` in the Arduino IDE and upload it. If the IDE offers to move it into a folder of the same name, click OK.
 4. In `hand_control.py`, set `USE_ARDUINO = True` and `PORT` to your COM port
 5. Run `python hand_control.py` (press q to quit)
 
