@@ -28,3 +28,8 @@ Webcam -> Python + MediaPipe -> USB serial -> Arduino -> Buzzer + RGB LED
 ## Notes
 - Needs MediaPipe 0.10.14, since newer versions removed the `solutions` API
 - Close the Arduino Serial Monitor before running the Python script
+
+## Circuit (Tinkercad simulation)
+![Circuit diagram](circuit%20in%20tinkercad.png)
+
+The simulation uses an Arduino Uno R3 and a piezo in place of the Uno R4 Minima and passive buzzer. The pins and code are the same.
